@@ -59,6 +59,6 @@ public class NewGameFrag extends Fragment {
     }
 
     public interface onNewGameListener {
-        void onGameCreated(Uri uri);
+        void onGameCreated();
     }
 }
